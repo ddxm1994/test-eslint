@@ -1,4 +1,4 @@
-STAGE_FILES=$(git diff --cached --name-only -- '*.json' '*.js')
+STAGE_FILES=$(git diff --cached --name-only -- '*.json' '*.js' '*.vue')
 if test ${#STAGE_FILES} -gt 0
 then
     echo '开始代码格式检查与修正'
