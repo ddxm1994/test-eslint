@@ -1,3 +1,4 @@
+import consolidate from '@vue/consolidate';
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
@@ -58,6 +59,12 @@ export default {
   props: {
     msg: String,
   },
+  data(){
+    a:11
+  },
+  mounted() {
+     console.log('5555',this.b)
+    },
 }
 </script>
 
