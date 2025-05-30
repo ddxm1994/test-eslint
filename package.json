@@ -26,18 +26,6 @@
         "lint-staged": "^16.0.0",
         "prettier": "3.5.3"
     },
-    // "husky": {
-    //     "hooks": {
-    //         "pre-commit": "lint-staged"
-    //     }
-    // },
-    // "lint-staged": {
-    //     "src/**": [
-    //         "prettier --config .prettierrc --write",
-    //         "eslint --fix",
-    //         "git add"
-    //     ]
-    // },
     "eslintConfig": {
         "root": true,
         "env": {
