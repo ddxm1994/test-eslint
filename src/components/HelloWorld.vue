@@ -59,12 +59,12 @@ export default {
   props: {
     msg: String,
   },
-  data(){
-    a:11
+  data() {
+    a: 11
   },
   mounted() {
-     console.log('5555',this.b)
-    },
+    console.log('5555', this.b)
+  },
 }
 </script>
 
